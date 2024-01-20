@@ -2,4 +2,4 @@
 !.gitignore
 !*/.gitignore
 !data/*
-!.ipynb_checkpoints/*
+!notebooks/.ipynb_checkpoints/*
