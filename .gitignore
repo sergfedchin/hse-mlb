@@ -1,5 +1,5 @@
 *
 !.gitignore
 !*/.gitignore
-!data/*
+data/*
 !notebooks/.ipynb_checkpoints/*
