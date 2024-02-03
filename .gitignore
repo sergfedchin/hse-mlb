@@ -1,5 +1,5 @@
-*
-!.gitignore
-!*/.gitignore
-!data/*
-!.ipynb_checkpoints/*
+#*
+#!.gitignore
+#!*/.gitignore
+#!data/*
+#!.ipynb_checkpoints/*
