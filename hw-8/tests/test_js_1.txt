@@ -1,0 +1,7 @@
+$(document).ready(function ( {
+    $('#AlgoAddFades').change(function () {
+        var addFades = document.getElementById('AlgoAddFades');
+        if (addFades.checked) {
+            // todo
+    }
+});

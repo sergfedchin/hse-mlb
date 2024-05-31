@@ -1,0 +1,3 @@
+for test in os.listdir('tests'):
+    subprocess.call(['python3', 'main.py', os.path.join('tests', test)], stderr=0)
+    os.system(f'python main.py {os.path.join("tests", test)}')
