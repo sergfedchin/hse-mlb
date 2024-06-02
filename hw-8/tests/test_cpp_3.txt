@@ -1,0 +1,9 @@
+char** split_by_logic(char *str, int &arg_count, int *logic_type) {
+    std::vector<std::string> res;
+    std::string s(str);
+    for (size_t pos = 0, prev = 0; pos < std::string::npos; prev += pos + 2) {
+        std::string left = s.substr(prev, s.size()
+        pos = std::min(and_pos, or_pos);
+        logic_type[arg_count++] = (and_pos < or_pos) ? 0 : 1;
+        res.push_back(left.substr(0, std::min(leftsize(), pos)));
+    }

@@ -1,0 +1,6 @@
+if os.path.exists(data):
+    df = get_norm_df(data)
+    try:
+    x = bow.transform(df['text'])
+    except KeyError
+        print "Error: incorrect data format"

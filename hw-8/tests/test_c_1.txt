@@ -1,0 +1,4 @@
+if (bind(fd, (struct sockaddr *)&sa, sizeof(sa)) < 0) {
+    perror("bind");
+    return 1;
+}

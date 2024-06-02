@@ -1,0 +1,6 @@
+var editButton = document.getElementById('EditNeuroTrackButton');
+        var editContainer = document.getElementById('EditNeuroTrackContainer');
+        if (editButton.innerText === "Edit track") {
+            // editContainer.style.display = 'flex';
+            ('#EditNeuroTrackContainer').show();
+            editButton.innerText = "Hide editing settings";

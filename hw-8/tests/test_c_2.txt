@@ -1,0 +1,10 @@
+void spiral(int offset, int rows, int cols, int *arr, int *val) {
+    int r = offset, c = offset;
+    bool flag1 = true, flag2 = true;
+    for (; c < cols - offset; c++) {
+        arr[r * cols + c] = (*val)++;
+        if (c > offset) {
+            flag1 = false;
+        }
+    }
+}
